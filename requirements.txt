@@ -2,9 +2,10 @@ torch>=1.7.1
 transformers>=4.0.0
 PyPDF2
 langchain
-faiss-cpu
+langchain-community
+langchain-huggingface
+faiss-gpu
 sentence-transformers
 gradio
 accelerate>=0.26.0
 datasets
-langchain-community
