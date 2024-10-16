@@ -1,0 +1,7 @@
+torch>=1.7.1
+transformers>=4.0.0
+PyPDF2
+langchain
+faiss-cpu
+sentence-transformers
+gradio
