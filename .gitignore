@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# PDF files (course notes)
+data/pdfs/
+*.pdf
+
+# Data directories
+data/raw_text/
+data/cleaned_text/
+data/*.txt
+
+# Model directories and files
+models/
+output_model/
+*.bin
+*.ckpt
+*.h5
+
+# Vector stores and embeddings
+vectors/
+*.faiss
+*.npy
+*.npz
+
+# Cache directories and files
+cache/
+*.cache
+
+# Logs and debug files
+logs/
+*.log
+*.out
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Gradio temporary files
+gradio/
+
+# Miscellaneous
+*.swp
+*.swo
